@@ -18,3 +18,5 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
 
 https://github.com/digitalinnovationone/trilha-java-basico/tree/main/desafios/controle-fluxo
+https://github.com/digitalinnovationone/trilha-java-basico
+https://github.com/digitalinnovationone/trilha-java-basico/tree/main/gitbook/controle-de-fluxo
