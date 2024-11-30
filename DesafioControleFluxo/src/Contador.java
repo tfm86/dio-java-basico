@@ -13,24 +13,18 @@ public class Contador {
 
         try {
 
-            contar(primeiro, segundo){
-            
-                        }
-            
-                    } catch (Exception e) {
-                        // TODO: handle exception
-                    }
-            
-                }
+            contar(primeiro, segundo);
+
+        } catch (Exception e) {
+            // TODO: handle exception
+        }
+
+    }
 
     private static void contar(int primeiro, int segundo) throws ParametrosInvalidosException {
 
         if (primeiro < segundo) {
             int contagem = segundo - primeiro;
-
-            for (int c : contagem) {
-
-            }
 
         }
 
