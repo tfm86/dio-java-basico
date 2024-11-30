@@ -16,7 +16,7 @@ public class Contador {
             contar(primeiro, segundo);
 
         } catch (Exception e) {
-            // TODO: handle exception
+            System.out.println(e);
         }
 
     }
@@ -26,9 +26,14 @@ public class Contador {
         if (primeiro < segundo) {
             int contagem = segundo - primeiro;
 
+            for (int i = 0; i < contagem; i++) {
+                System.out.println("Imprimindo o numero " + i);
+            }
+
+        } else {
+            throw new ParametrosInvalidosException("O segundo parâmetro deve ser maior que o primeiro");
         }
 
-        // throw new UnsupportedOperationException("Unimplemented method 'contar'");
     }
 
 }
