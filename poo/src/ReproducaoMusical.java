@@ -1,6 +1,6 @@
 public interface ReproducaoMusical {
 
-    public String tocar();
+    public void tocar();
 
     public void pausa();
 
