@@ -44,7 +44,7 @@ classDiagram
 
  1. **Código em Mermaid**
 
-classDiagram
+    classDiagram
     class ReprodutorMusical {
         +tocar()
         +pausa()
