@@ -1,9 +1,13 @@
-### Exemplo de Diagrama UML (Mermaid)
+### Modelagem e Diagramação de um Componente iPhone
+
+Modelagem do diagrama e representação em UML do componente iPhone, abrangendo suas funcionalidades como Reprodutor Musical, Aparelho Telefônico e Navegador na Internet
+
+### Diagrama UML (Mermaid)
 ```mermaid
 classDiagram
     class ReprodutorMusical {
         +tocar()
-        +pausar()
+        +pausa()
         +selecionarMusica(String musica)
     }
 
@@ -21,7 +25,7 @@ classDiagram
 
     class iPhone {
         +tocar()
-        +pausar()
+        +pausa()
         +selecionarMusica(String musica)
         +ligar(String numero)
         +atender()
