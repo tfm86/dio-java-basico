@@ -42,57 +42,19 @@ classDiagram
 
 ## Observação
 
- 1. **Código em Mermaid**
-
-    classDiagram
-    class ReprodutorMusical {
-        +tocar()
-        +pausa()
-        +selecionarMusica(String musica)
-    }
-
-    class AparelhoTelefonico {
-        +ligar(String numero)
-        +atender()
-        +iniciarCorreioVoz()
-    }
-
-    class NavegadorInternet {
-        +exibirPagina(String url)
-        +adicionarNovaAba()
-        +atualizarPagina()
-    }
-
-    class iPhone {
-        +tocar()
-        +pausa()
-        +selecionarMusica(String musica)
-        +ligar(String numero)
-        +atender()
-        +iniciarCorreioVoz()
-        +exibirPagina(String url)
-        +adicionarNovaAba()
-        +atualizarPagina()
-    }
-
-    iPhone --|> ReprodutorMusical
-    iPhone --|> AparelhoTelefonico
-    iPhone --|> NavegadorInternet
-
-
-2. **Interfaces**
+1. **Interfaces**
 
  - ReprodutorMusical, AparelhoTelefonico, e NavegadorInternet representam os comportamentos.
 
-3. **Classe iPhone**
+2. **Classe iPhone**
 
  - Implementa todas as interfaces, agregando suas funcionalidades.
 
-4. **Relações**
+3. **Relações**
 
- - A relação --|> representa que iPhone implementa as interfaces.
+ - A relação --|> representa que iPhone implementa as interfaces (Mermaid)
 
-5. **Ferramenta**
+4. **Ferramenta**
 
  - Mermaid - https://mermaid.js.org/
 
