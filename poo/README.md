@@ -39,3 +39,23 @@ classDiagram
     iPhone --|> AparelhoTelefonico
     iPhone --|> NavegadorInternet
 ```
+
+## Observação
+
+1. **Interfaces**
+
+ - ReprodutorMusical, AparelhoTelefonico, e NavegadorInternet representam os comportamentos.
+
+2. **Classe iPhone**
+
+ - Implementa todas as interfaces, agregando suas funcionalidades.
+
+3. **Relações**
+
+ - A relação --|> representa que iPhone implementa as interfaces.
+
+4. **Ferramenta**
+
+ - Mermaid - https://mermaid.js.org/
+
+
