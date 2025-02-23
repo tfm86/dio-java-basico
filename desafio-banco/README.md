@@ -5,6 +5,10 @@ Welcome to the VS Code Java world. Here is a guideline to help you get started t
 ### Diagrama UML (Mermaid)
 ```mermaid
 
+---
+title: Conta
+---
+
 classDiagram
     
     Conta: +int agencia
@@ -12,6 +16,8 @@ classDiagram
     Conta: +double saldo
     Conta: +Cliente cliente
     Conta: +getAgencia()
+    Conta: +getNumero()
+    Conta: +getSaldo();
 
 
 ```
