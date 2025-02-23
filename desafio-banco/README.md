@@ -6,7 +6,7 @@ Welcome to the VS Code Java world. Here is a guideline to help you get started t
 ```mermaid
 
 ---
-title: Conta
+title: Banco Digital
 ---
 
 classDiagram
@@ -18,6 +18,13 @@ classDiagram
     Conta: +getAgencia()
     Conta: +getNumero()
     Conta: +getSaldo()
+    
+
+    class ContaCorrente{
+     
+    }
+
+
 
 
 ```
