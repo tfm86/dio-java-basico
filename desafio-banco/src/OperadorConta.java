@@ -30,12 +30,13 @@ public class OperadorConta implements Operador {
 
     @Override
     public void extratoConta(Conta conta) {
-
-        System.out.println(String.format("Extrato: %s", conta.getClass().getName()));
-        System.out.println(String.format("Titular: %s", conta.cliente.getNome()));
-        System.out.println(String.format("Agencia: %d", conta.agencia));
-        System.out.println(String.format("Numero: %d", conta.numero));
-        System.out.println(String.format("Saldo: %.2f", conta.saldo));
+        System.out.println("\n========= EXTRATO BANCÁRIO =========");
+        System.out.printf("Extrato : %s%n", conta.getClass().getName());
+        System.out.printf("Titular : %s%n", conta.getCliente().getNome());
+        System.out.printf("Agência : %d%n", conta.getAgencia());
+        System.out.printf("Número  : %d%n", conta.getNumero());
+        System.out.printf("Saldo   : R$ %.2f%n", conta.getSaldo());
+        System.out.println("=====================================\n");
     }
 
 }
