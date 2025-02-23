@@ -9,7 +9,7 @@ Welcome to the VS Code Java world. Here is a guideline to help you get started t
 title: Banco Digital
 ---
 
-cclassDiagram
+classDiagram
     class Cliente {
         - String nome
         - String cpf
