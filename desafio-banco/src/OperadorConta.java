@@ -2,22 +2,30 @@ public class OperadorConta implements Operador {
 
     @Override
     public void sacar(double valor, Conta conta) {
-        conta.saldo = conta.saldo - valor;
+        if (valor > 0 && conta.getSaldo() >= valor) {
+            conta.saldo = conta.saldo - valor;
+        } else {
+            System.out.println("==== Saldo insuficiente ou valor inválido ====");
+        }
     }
 
     @Override
     public void transferir(double valor, Conta contaOrigem, Conta contaDestino) {
-        if (contaOrigem.saldo >= valor) {
+        if (valor > 0 && contaOrigem.saldo >= valor) {
             contaOrigem.saldo = contaOrigem.saldo - valor;
             contaDestino.saldo = contaDestino.saldo + valor;
         } else {
-            System.out.println("====Saldo insuficiente====");
+            System.out.println("==== Saldo insuficiente ou valor inválido ====");
         }
     }
 
     @Override
     public void depositar(double valor, Conta contaDestino) {
-        contaDestino.saldo = contaDestino.saldo + valor;
+        if (valor > 0) {
+            contaDestino.saldo = contaDestino.saldo + valor;
+        } else {
+            System.out.println("==== Valor inválido para depósito ====");
+        }
     }
 
     @Override

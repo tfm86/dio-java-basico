@@ -11,6 +11,7 @@ public abstract class Conta {
         this.agencia = Conta.AGENCIA_ID;
         this.numero = SEQNUMERO++;
         this.cliente = cliente;
+        this.saldo = 0.0;
     }
 
     public int getAgencia() {
@@ -23,6 +24,10 @@ public abstract class Conta {
 
     public double getSaldo() {
         return saldo;
+    }
+
+    public Cliente getCliente() {
+        return cliente;
     }
 
 }
