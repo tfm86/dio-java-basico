@@ -60,8 +60,23 @@ classDiagram
     Operador <|.. OperadorConta
     Cliente "1" --> "1" Conta
 
-
 ```
+### Explicação do Relacionamento
+
+✅ Herança (<|--)
+
+    ContaCorrente e ContaPoupanca herdam de Conta.
+    Isso significa que ambas compartilham os atributos e métodos da classe Conta, mas podem ter suas próprias funcionalidades.
+
+✅ Implementação de Interface (<|..)
+
+    OperadorConta implementa a interface Operador.
+    Isso garante que OperadorConta forneça implementações para os métodos definidos na interface.
+
+✅ Associação ("1" --> "1")
+
+    Conta tem uma associação com Cliente, pois toda conta pertence a um cliente.
+
 
 ### Construtor nas Classes Conta Corrente e Conta Poupanca
 
