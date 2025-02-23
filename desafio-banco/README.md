@@ -18,9 +18,15 @@ classDiagram
     Conta: +getAgencia()
     Conta: +getNumero()
     Conta: +getSaldo()
-    
+    Conta <|-- ContaCorrente
+    Conta <|-- ContaPoupanca
+
 
     class ContaCorrente{
+     
+    }
+
+    class ContaPoupanca{
      
     }
 
