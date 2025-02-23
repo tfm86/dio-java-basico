@@ -17,7 +17,7 @@ classDiagram
     Conta: +Cliente cliente
     Conta: +getAgencia()
     Conta: +getNumero()
-    Conta: +getSaldo();
+    Conta: +getSaldo()
 
 
 ```
